@@ -30,11 +30,11 @@ public class SampleLogin {
         WebDriver driver=null;
         //WebElement driver=null;
         //Launching browser
-//        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
-//         driver=new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+         driver=new ChromeDriver();
         //System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver.exe");
-       System.setProperty("webdriver.firefox.marionette", "Drivers/geckodriver.exe");
-       driver=new FirefoxDriver();
+       //System.setProperty("webdriver.firefox.marionette", "Drivers/geckodriver.exe");
+       //driver=new FirefoxDriver();
         
         
 
